@@ -1,0 +1,22 @@
+.btn{
+    width: 157px;
+    height: 47px;
+    background-color: $main-btn-color;
+    border: none;
+    font-family: 'Open-Sans-Bold';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    &_promo{
+        width: 137px;
+        margin-top: 20px;
+        margin-left: 205px;
+    }
+    &__menu{
+        width: 220px;
+        height: 50px;
+        background: #D67E34;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    }
+}

@@ -1,0 +1,16 @@
+.reserve{
+    padding-top: 80px;
+    padding-bottom: 104px;
+    background: url('../img/reserve__bg.png') center (center/cover) no-repeat;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text{
+        width: 601px;
+    }
+    &__subtitle{
+        margin-top: 20px;
+    }
+}

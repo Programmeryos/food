@@ -1,0 +1,34 @@
+.menu{
+    padding: 100px 0 226px 0;
+    background: url('../img/menu/menu__bg.png') center (center/cover) no-repeat;
+    &__title{
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__grid{
+        margin-top: 138px;
+    }
+    &__item{
+        position: relative;
+        width: 350px;
+        height: 510px;
+        background-color: #fff;
+        &-img{
+            position: absolute;
+            top: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &-title{
+            padding-top: 327px;
+            text-align: center;
+        }
+        &-descr{
+            text-align: center;
+        }
+        .btn__menu{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}   
